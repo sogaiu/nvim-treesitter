@@ -71,6 +71,14 @@ list.rust = {
   maintainers = {"@vigoux"},
 }
 
+list.clojure = {
+  install_info = {
+    url = "https://github.com/GrayJack/tree-sitter-janet",
+    files = { "src/parser.c" }
+  },
+  maintainers = {"@GrayJack"},
+}
+
 list.lua = {
   install_info = {
     url = "https://github.com/nvim-treesitter/tree-sitter-lua",
